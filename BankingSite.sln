@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSite", "BankingSite\BankingSite.csproj", "{9FDF1EA9-5F3F-4A0F-8AC5-D8BC5E9468DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5970680F-3A23-429C-8121-10A5B545FDAF}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSite.UnitTest", "BankingSiteUnitTest\BankingSite.UnitTest.csproj", "{E4A305DE-2ADD-4370-A9F0-AB611B271C87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSite.IntegrationTests", "BankingSite.IntegrationTests\BankingSite.IntegrationTests.csproj", "{CF70CD14-E9C9-4EF2-A4BC-9755239ACE81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSite.ControllerTests", "BankingSite.ControllerTests\BankingSite.ControllerTests.csproj", "{3782486B-A945-4997-8A7B-F92EA325525D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSite.ViewTests", "BankingSite.ViewTest\BankingSite.ViewTests.csproj", "{045FBFBA-FCEE-4306-B993-3894FECA2318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSite.FunctionUITests", "BankingSite.FunctionUITests\BankingSite.FunctionUITests.csproj", "{EFB8E6DD-956F-45B6-B31D-2432EC5BF036}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FDF1EA9-5F3F-4A0F-8AC5-D8BC5E9468DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDF1EA9-5F3F-4A0F-8AC5-D8BC5E9468DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDF1EA9-5F3F-4A0F-8AC5-D8BC5E9468DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDF1EA9-5F3F-4A0F-8AC5-D8BC5E9468DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A305DE-2ADD-4370-A9F0-AB611B271C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A305DE-2ADD-4370-A9F0-AB611B271C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A305DE-2ADD-4370-A9F0-AB611B271C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A305DE-2ADD-4370-A9F0-AB611B271C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF70CD14-E9C9-4EF2-A4BC-9755239ACE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF70CD14-E9C9-4EF2-A4BC-9755239ACE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF70CD14-E9C9-4EF2-A4BC-9755239ACE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF70CD14-E9C9-4EF2-A4BC-9755239ACE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3782486B-A945-4997-8A7B-F92EA325525D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3782486B-A945-4997-8A7B-F92EA325525D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3782486B-A945-4997-8A7B-F92EA325525D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3782486B-A945-4997-8A7B-F92EA325525D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{045FBFBA-FCEE-4306-B993-3894FECA2318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045FBFBA-FCEE-4306-B993-3894FECA2318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045FBFBA-FCEE-4306-B993-3894FECA2318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045FBFBA-FCEE-4306-B993-3894FECA2318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB8E6DD-956F-45B6-B31D-2432EC5BF036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB8E6DD-956F-45B6-B31D-2432EC5BF036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB8E6DD-956F-45B6-B31D-2432EC5BF036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB8E6DD-956F-45B6-B31D-2432EC5BF036}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {680E63A4-7429-4FF5-B1E0-C73693671735}
+	EndGlobalSection
+EndGlobal
