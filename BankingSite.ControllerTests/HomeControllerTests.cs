@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TestStack.FluentMVCTesting;
 
-namespace BankingSite.ControllerTests
+namespace BankingSite.ControllerTests 
 {
     [TestFixture]
     public class HomeControllerTests
