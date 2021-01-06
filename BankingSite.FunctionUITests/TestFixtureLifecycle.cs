@@ -15,7 +15,7 @@ namespace BankingSite.FunctionUITests
             DemoHelperCode.DemoHelper.Wait(5000);
 
             // Cleanup and close browser
-            BrowserHost.Instance.Dispose();
+            //BrowserHost.Instance.Dispose();
         }
     }
 }

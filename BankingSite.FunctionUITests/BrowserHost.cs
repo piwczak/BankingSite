@@ -7,16 +7,16 @@ using TestStack.Seleno.Configuration;
 
 namespace BankingSite.FunctionUITests
 {
-    public static class BrowserHost
+    public class BrowserHost
     {
-        public static readonly SelenoHost Instance = new SelenoHost();
-        public static readonly string RootUrl;
+        //public static readonly SelenoHost Instance = new SelenoHost();
+        //public static readonly string RootUrl;
 
-        static BrowserHost()
+        BrowserHost()
         {
-            Instance.Run("BankingSite", 4223, config => config.WithRouteConfig(RouteConfig.RegisterRoutes));
+            //Instance.Run("BankingSite", 4223, config => config.WithRouteConfig(RouteConfig.RegisterRoutes));
 
-            RootUrl = Instance.Application.Browser.Url;
+            //RootUrl = Instance.Application.Browser.Url;
         }
     }
 }
